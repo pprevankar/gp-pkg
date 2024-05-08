@@ -1,0 +1,29 @@
+{
+  "name": "@pprevankar/gp",
+  "version": "1.0.0",
+  "description": "Checking grandparent package details",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprevankar/gp-pkg.git"
+  },
+  "publishConfig": {
+    "@pprevankar:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "gp-pkg"
+  ],
+  "author": "cret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprevankar/gp-pkg/issues"
+  },
+  "homepage": "https://github.com/pprevankar/gp-pkg#readme",
+  "dependencies": {
+    "@pprevankar/parent": "^1.0.0",
+    "express": "^4.19.2"
+  }
+}
